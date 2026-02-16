@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: #111827;
+}
+
+.button-primary {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.button-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.button-secondary {
+  padding: 0.5rem 1rem;
+  background-color: #e5e7eb;
+  color: #111827;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.button-secondary:hover {
+  background-color: #d1d5db;
+}
+
+.terminal-output {
+  background-color: #111827;
+  color: #4ade80;
+  font-family: monospace;
+  font-size: 0.875rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
