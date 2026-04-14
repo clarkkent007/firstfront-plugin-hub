@@ -1,7 +1,6 @@
 # Nexus Plugin Hub
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/clarkkent007/firstfront-plugin-hub)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **A powerful plugin marketplace for Nexus agents, enabling AI-powered productivity plugins.**
 
@@ -39,21 +38,6 @@ npm run dev
 - **Runtime**: Nexus Agent Gateway
 - **Deployment**: Vercel
 
-## 📂 Project Structure
-
-```
-firstfront-plugin-hub/
-├── app/
-│   ├── api/run-plugin/route.ts      # API endpoint
-│   ├── layout.tsx                    # Root layout
-│   └── page.tsx                      # Home page
-├── src/
-│   ├── components/                   # React components
-│   ├── plugins/                      # Plugin definitions
-│   └── types/                        # TypeScript types
-└── vercel.json                       # Vercel config
-```
-
 ## 🌐 Deployment
 
 ### Vercel (Recommended)
@@ -61,23 +45,9 @@ firstfront-plugin-hub/
 2. Or connect your GitHub repo to Vercel
 3. Automatic deployment on every push
 
-### Manual
-```bash
-npm install
-npm run build
-npm start
-```
+## License
 
-## 🛠️ Tech Stack
-
-- **Framework**: [Next.js 16+](https://nextjs.org) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org)
-- **Styling**: [TailwindCSS 4](https://tailwindcss.com)
-- **Agent Runtime**: [Nexus Agent Gateway](https://github.com/clarkkent007/nexus-agent-gateway)
-
-## 📄 License
-
-MIT - Feel free to use this for any purpose.
+**Proprietary** — Part of the FirstFront Nexus platform.
 
 ---
 
