@@ -12,10 +12,10 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            Available Plugins
+            Community Plugins
           </h2>
           <p className="text-gray-600">
-            Select a plugin below and click "Run Plugin" to execute it powered by FirstFront Agent Gateway.
+            Run AI-powered productivity plugins powered by FirstFront Agent Gateway.
           </p>
         </div>
 
@@ -23,6 +23,24 @@ export default function Home() {
           {allPlugins.map((plugin) => (
             <PluginCard key={plugin.id} plugin={plugin} />
           ))}
+        </div>
+
+        <div className="mt-16 p-8 bg-gradient-to-br from-amber-50 to-yellow-100 rounded-2xl border border-amber-200 text-center">
+          <h3 className="text-2xl font-bold text-gray-900 mb-3">
+            Need More Plugins?
+          </h3>
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            FirstFront Nexus provides unified plugin management for Claude Code, OpenClaw, 
+            Knowledge Work, MCP servers, and more. Browse and install from a unified interface.
+          </p>
+          <a
+            href="https://github.com/clarkkent007/firstfront-nexus"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 text-white rounded-lg font-medium hover:bg-amber-600 transition-colors"
+          >
+            Open FirstFront Nexus →
+          </a>
         </div>
       </section>
 
