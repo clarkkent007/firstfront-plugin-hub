@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Copilot CLI Plugin Marketplace',
+  title: 'FirstFront Plugin Hub',
   description:
-    'Run AI-powered productivity plugins powered by GitHub Copilot CLI',
+    'AI-powered plugin marketplace for FirstFront agents',
 };
 
 export default function RootLayout({

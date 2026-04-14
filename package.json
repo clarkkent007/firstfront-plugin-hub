@@ -1,7 +1,8 @@
 {
-  "name": "copilot-plugin-marketplace",
+  "name": "firstfront-plugin-hub",
   "version": "0.1.0",
   "private": true,
+  "description": "FirstFront Plugin Hub - AI-powered plugin marketplace",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

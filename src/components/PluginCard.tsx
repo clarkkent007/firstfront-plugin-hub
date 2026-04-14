@@ -67,12 +67,12 @@ export default function PluginCard({ plugin }: PluginCardProps) {
           className={`w-full py-2 px-4 rounded-lg font-medium transition-all ${
             isLoading
               ? 'bg-gray-100 text-gray-500 cursor-not-allowed'
-              : 'bg-blue-600 text-white hover:bg-blue-700 active:scale-95'
+              : 'bg-amber-500 text-white hover:bg-amber-600 active:scale-95'
           }`}
         >
           {isLoading ? (
             <span className="flex items-center justify-center gap-2">
-              <span className="inline-block w-4 h-4 border-2 border-gray-300 border-t-blue-600 rounded-full animate-spin"></span>
+              <span className="inline-block w-4 h-4 border-2 border-gray-300 border-t-amber-500 rounded-full animate-spin"></span>
               Running...
             </span>
           ) : (
@@ -95,7 +95,7 @@ export default function PluginCard({ plugin }: PluginCardProps) {
         <div className="space-y-2">
           <button
             onClick={() => setShowOutput(!showOutput)}
-            className="text-sm font-medium text-blue-600 hover:text-blue-700 flex items-center gap-1"
+            className="text-sm font-medium text-amber-600 hover:text-amber-700 flex items-center gap-1"
           >
             <span>{showOutput ? '▼' : '▶'}</span>
             {showOutput ? 'Hide Output' : 'Show Output'}

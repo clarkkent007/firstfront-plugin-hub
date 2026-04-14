@@ -15,7 +15,7 @@ export default function Home() {
             Available Plugins
           </h2>
           <p className="text-gray-600">
-            Select a plugin below and click "Run Plugin" to execute it powered by GitHub Copilot CLI.
+            Select a plugin below and click "Run Plugin" to execute it powered by FirstFront Agent Gateway.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-12 text-center text-gray-600 text-sm">
           <p>
             Built with Next.js, TypeScript, and{' '}
-            <span className="font-semibold">GitHub Copilot CLI</span>
+            <span className="font-semibold">FirstFront Agent Gateway</span>
           </p>
         </div>
       </footer>

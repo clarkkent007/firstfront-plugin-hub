@@ -34,8 +34,8 @@ export async function POST(request: NextRequest): Promise<NextResponse<PluginRes
       );
     }
 
-    // Execute copilot CLI command
-    const command = `copilot -p "${plugin.copilotPrompt}"`;
+    // Execute firstfront-agent command
+    const command = `firstfront-agent run "${plugin.copilotPrompt}"`;
     
     let stdout = '';
     let stderr = '';
