@@ -8,6 +8,7 @@ import createPlugin from './create-plugin';
 import securityAudit from './security-audit';
 import performanceAudit from './performance-audit';
 import apiDoc from './api-documentation';
+import mempalacePlugin from './mempalace-setup';
 
 export const allPlugins: Plugin[] = [
   readmePlugin,
@@ -19,6 +20,7 @@ export const allPlugins: Plugin[] = [
   securityAudit,
   performanceAudit,
   apiDoc,
+  mempalacePlugin,
 ];
 
 export const pluginMap: Record<string, Plugin> = {
@@ -31,6 +33,7 @@ export const pluginMap: Record<string, Plugin> = {
   'security-audit': securityAudit,
   'performance-audit': performanceAudit,
   'api-documentation': apiDoc,
+  'mempalace-setup': mempalacePlugin,
 };
 
-export { readmePlugin, gitPlugin, testPlugin, reviewPlugin, firstfrontSetup, createPlugin, securityAudit, performanceAudit, apiDoc };
+export { readmePlugin, gitPlugin, testPlugin, reviewPlugin, firstfrontSetup, createPlugin, securityAudit, performanceAudit, apiDoc, mempalacePlugin };
