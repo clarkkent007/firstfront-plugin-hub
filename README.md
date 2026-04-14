@@ -1,9 +1,9 @@
-# FirstFront Plugin Hub
+# Nexus Plugin Hub
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/clarkkent007/firstfront-plugin-hub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **A powerful plugin marketplace for FirstFront agents, enabling AI-powered productivity plugins.**
+> **A powerful plugin marketplace for Nexus agents, enabling AI-powered productivity plugins.**
 
 ## 🚀 Quick Start (2 Minutes)
 
@@ -26,8 +26,8 @@ npm run dev
 | 🔗 Summarize Commits | Analyze git history and generate changelogs |
 | 🧪 Generate Tests | Create unit and integration test cases |
 | 🔍 Repository Review | Comprehensive code review with suggestions |
-| 🚀 Setup FirstFront Agent | Initialize FirstFront Agent Gateway |
-| 🔌 Create Plugin | Generate new FirstFront plugins |
+| 🚀 Setup Nexus Agent | Initialize Nexus Agent Gateway |
+| 🔌 Create Plugin | Generate new Nexus plugins |
 | 🔒 Security Audit | OWASP Top 10 and vulnerability scan |
 | ⚡ Performance Analysis | Identify bottlenecks and optimizations |
 | 📚 API Documentation | Generate OpenAPI specs from code |
@@ -36,7 +36,7 @@ npm run dev
 
 - **Frontend**: React 19, TypeScript, TailwindCSS
 - **Backend**: Next.js API Routes
-- **Runtime**: FirstFront Agent Gateway
+- **Runtime**: Nexus Agent Gateway
 - **Deployment**: Vercel
 
 ## 📂 Project Structure
@@ -73,7 +73,7 @@ npm start
 - **Framework**: [Next.js 16+](https://nextjs.org) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org)
 - **Styling**: [TailwindCSS 4](https://tailwindcss.com)
-- **Agent Runtime**: [FirstFront Agent Gateway](https://github.com/clarkkent007/firstfront-agent-gateway)
+- **Agent Runtime**: [Nexus Agent Gateway](https://github.com/clarkkent007/nexus-agent-gateway)
 
 ## 📄 License
 
